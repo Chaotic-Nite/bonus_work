@@ -13,7 +13,7 @@ def enclosed_area(w, h):
 
 
 def generate_list():
-    return [(j, i) for j in range(2, 10) for i in range(2, 10)]
+    return [(j, i) for j in range(2, 10) for i in range(j, 10)]
 
 
 def rectangle_sort():
